@@ -1,0 +1,138 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6fb;
+    color: #202437;
+    min-height: 100vh;
+    padding: 24px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 420px;
+    background: white;
+    padding: 28px 22px;
+    border-radius: 22px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.07);
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #6b7280;
+    line-height: 1.6;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin: 22px 0 12px;
+    border: 1px solid #d9deea;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    background: #5b5ce2;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+}
+
+#ticket {
+    width: 100%;
+    margin-top: 24px;
+    padding: 22px 16px;
+    background: #f7f7ff;
+    border: 1px solid #e2e3ff;
+    border-radius: 18px;
+}
+
+#ticket h2 {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+#ticket h3 {
+    margin-top: 22px;
+    font-size: 14px;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#ticket-number {
+    font-size: clamp(48px, 15vw, 68px);
+    color: #5b5ce2;
+    margin: 8px 0 18px;
+}
+
+#ticket p {
+    margin-top: 10px;
+    overflow-wrap: anywhere;
+}
+
+
+/* Customer is next */
+#ticket.your-turn {
+    border: 2px solid #635bff;
+    background: #f0efff;
+    box-shadow: 0 0 18px rgba(99, 91, 255, 0.2);
+}
+
+#ticket-status.your-turn-message {
+    color: #5145cd;
+    font-weight: 700;
+    background: #e4e1ff;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+}
+#leave-queue {
+    margin-top: 15px;
+    padding: 12px 20px;
+    background: #ef4444;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#leave-queue:hover {
+    background: #dc2626;
+}
+
+@media (max-width: 360px) {
+    body {
+        padding: 14px 10px;
+    }
+
+    .container {
+        padding: 22px 16px;
+    }
+}

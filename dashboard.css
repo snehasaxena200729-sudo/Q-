@@ -1,0 +1,333 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6fb;
+    color: #222;
+    padding: 30px 15px;
+}
+
+.dashboard {
+    max-width: 750px;
+    margin: auto;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #6366f1;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #777;
+}
+
+.queue-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 22px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+}
+
+.queue-info h2 {
+    margin-bottom: 8px;
+}
+
+.queue-info p {
+    color: #777;
+    font-size: 14px;
+}
+
+.count {
+    background: #eef0ff;
+    color: #6366f1;
+    padding: 12px 18px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.count span {
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.count small {
+    font-size: 12px;
+}
+
+.actions {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+button {
+    padding: 13px 8px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.skip {
+    background: #f59e0b;
+}
+
+.add {
+    background: #16a34a;
+}
+
+.remove {
+    background: #ef4444;
+}
+
+.next {
+    background: #6366f1;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+.queue-section {
+    background: white;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+}
+
+.queue-section h3 {
+    margin-bottom: 18px;
+}
+
+.queue-list {
+    max-height: 350px;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+.person {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 10px;
+    border-bottom: 1px solid #eee;
+    gap: 10px;
+}
+
+.person:last-child {
+    border-bottom: none;
+}
+
+.person-info {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.position {
+    color: #888;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.person h4 {
+    margin-bottom: 6px;
+}
+
+.person p {
+    color: #777;
+    font-size: 13px;
+}
+
+.active {
+    background-color: #f0fdf4;
+    border-radius: 8px;
+}
+
+.status {
+    font-size: 11px;
+    font-weight: bold;
+    padding: 6px 9px;
+    border-radius: 20px;
+}
+
+.active-status {
+    color: #15803d;
+    background: #dcfce7;
+}
+
+.next-status {
+    color: #4338ca;
+    background: #e0e7ff;
+}
+
+@media (max-width: 480px) {
+    .actions {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .queue-info {
+        padding: 16px;
+    }
+
+    .queue-section {
+        padding: 15px;
+    }
+
+    .person {
+        padding: 14px 5px;
+    }
+}
+
+/* QR Code Section */
+.qr-section {
+    background: white;
+    padding: 22px;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+}
+
+.qr-section h3 {
+    margin-bottom: 8px;
+}
+
+.qr-section p {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.qr-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+.qr-box img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+.refresh-qr {
+    background: #6366f1;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.refresh-qr:hover {
+    background: #4f46e5;
+}
+
+/* QR and Waiting List side by side */
+.queue-layout {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+/* QR section on the left */
+.qr-section {
+    background: white;
+    padding: 22px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+}
+
+.qr-section h3 {
+    margin-bottom: 8px;
+}
+
+.qr-section p {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.qr-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+.qr-box img {
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: contain;
+}
+
+.refresh-qr {
+    background: #6366f1;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.refresh-qr:hover {
+    background: #4f46e5;
+}
+
+/* Waiting list on the right */
+.queue-layout .queue-section {
+    min-width: 0;
+}
+
+.queue-layout .queue-list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.queue-status {
+    margin: 15px 0;
+    font-weight: 600;
+}
+
+#queue-status.open {
+    color: green;
+}
+
+#queue-status.paused {
+    color: orange;
+}
+
+#queue-status.closed {
+    color: red;
+}
+
+/* Responsive layout for phones */
+@media (max-width: 650px) {
+    .queue-layout {
+        grid-template-columns: 1fr;
+    }
+}

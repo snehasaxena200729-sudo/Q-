@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Queue | Q</title>
+    <link rel="stylesheet" href="join.css">
+</head>
+<body>
+
+    <div class="join-box">
+        <h2>Join the Q</h2>
+
+        <input type="text" id="name" placeholder="Enter your name">
+        <p id="queue-status">Checking queue status...</p>
+
+        <button id="join-btn">Join Queue</button>
+    </div>
+
+<div id="ticket" style="display: none;">
+    <h2>You're in the Q! 🎉</h2>
+    <p>Welcome, <span id="ticket-name"></span>!</p>
+
+    <h3>Your Queue Number</h3>
+    <h1 id="ticket-number">#1</h1>
+
+    <p>People ahead: <span id="people-ahead">0</span></p>
+    <p>Estimated wait: <span id="wait-time">0</span> minutes</p>
+    <p>Your current position: <span id="ticket-position">1</span></p>
+
+    <p id="ticket-status">You're in the queue.</p>
+    <button id="leave-queue" type="button">
+    Leave Queue
+    </button>
+</div>
+
+    <script src="join.js"></script>
+    
+</body>
+</html>

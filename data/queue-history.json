@@ -1,0 +1,437 @@
+[
+  {
+    "type": "join",
+    "personId": 1,
+    "queueLength": 1,
+    "timestamp": "2026-10-28T17:24:14.227Z",
+    "hour": 22,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "join",
+    "personId": 1,
+    "queueLength": 1,
+    "timestamp": "2026-10-28T17:28:50.683Z",
+    "hour": 22,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "join",
+    "personId": 2,
+    "queueLength": 2,
+    "timestamp": "2026-10-28T17:28:54.204Z",
+    "hour": 22,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "join",
+    "personId": 1,
+    "queueLength": 1,
+    "timestamp": "2026-10-28T17:32:31.718Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "join",
+    "personId": 2,
+    "queueLength": 2,
+    "timestamp": "2026-10-28T17:32:35.084Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "join",
+    "personId": 3,
+    "queueLength": 3,
+    "timestamp": "2026-10-28T17:32:39.604Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "join",
+    "personId": 1,
+    "joinedAt": 1793209047170,
+    "queueLength": 1,
+    "timestamp": "2026-10-28T17:37:27.170Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "join",
+    "personId": 2,
+    "joinedAt": 1793209051657,
+    "queueLength": 2,
+    "timestamp": "2026-10-28T17:37:31.657Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "join",
+    "personId": 3,
+    "joinedAt": 1793209056523,
+    "queueLength": 3,
+    "timestamp": "2026-10-28T17:37:36.523Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "service_started",
+    "personId": 1,
+    "actualWaitMinutes": 0.31,
+    "queueLength": 3,
+    "timestamp": "2026-10-28T17:37:45.946Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "service_completed",
+    "personId": 1,
+    "serviceDurationMinutes": 0.31,
+    "queueLength": 3,
+    "timestamp": "2026-10-28T17:37:45.947Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "service_started",
+    "personId": 2,
+    "actualWaitMinutes": 0.46,
+    "queueLength": 2,
+    "timestamp": "2026-10-28T17:37:59.247Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "service_completed",
+    "personId": 2,
+    "serviceDurationMinutes": 0.22,
+    "queueLength": 2,
+    "timestamp": "2026-10-28T17:37:59.248Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "service_started",
+    "personId": 3,
+    "actualWaitMinutes": 0.42,
+    "queueLength": 1,
+    "timestamp": "2026-10-28T17:38:01.992Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "service_completed",
+    "personId": 3,
+    "serviceDurationMinutes": 0.05,
+    "queueLength": 1,
+    "timestamp": "2026-10-28T17:38:01.993Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "join",
+    "personId": 4,
+    "joinedAt": 1793209242086,
+    "queueLength": 1,
+    "timestamp": "2026-10-28T17:40:42.086Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "join",
+    "personId": 5,
+    "joinedAt": 1793209247357,
+    "queueLength": 2,
+    "timestamp": "2026-10-28T17:40:47.357Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "join",
+    "personId": 6,
+    "joinedAt": 1793209251607,
+    "queueLength": 3,
+    "timestamp": "2026-10-28T17:40:51.607Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "service_started",
+    "personId": 4,
+    "actualWaitMinutes": 0.76,
+    "queueLength": 3,
+    "timestamp": "2026-10-28T17:41:27.430Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "service_completed",
+    "personId": 4,
+    "serviceDurationMinutes": 0.76,
+    "queueLength": 3,
+    "timestamp": "2026-10-28T17:41:27.431Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "service_started",
+    "personId": 5,
+    "actualWaitMinutes": 1.22,
+    "queueLength": 2,
+    "timestamp": "2026-10-28T17:42:00.847Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "service_completed",
+    "personId": 5,
+    "serviceDurationMinutes": 0.56,
+    "queueLength": 2,
+    "timestamp": "2026-10-28T17:42:00.849Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "join",
+    "personId": 1,
+    "joinedAt": 1793209914259,
+    "queueLength": 1,
+    "timestamp": "2026-10-28T17:51:54.259Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "join",
+    "personId": 2,
+    "joinedAt": 1793209918163,
+    "queueLength": 2,
+    "timestamp": "2026-10-28T17:51:58.163Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "join",
+    "personId": 3,
+    "joinedAt": 1793209922214,
+    "queueLength": 3,
+    "timestamp": "2026-10-28T17:52:02.214Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "join",
+    "personId": 4,
+    "joinedAt": 1793209969467,
+    "queueLength": 4,
+    "timestamp": "2026-10-28T17:52:49.467Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "service_completed",
+    "personId": 1,
+    "serviceDurationMinutes": 1.62,
+    "queueLength": 4,
+    "timestamp": "2026-10-28T17:53:31.607Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "service_started",
+    "personId": 1,
+    "actualWaitMinutes": 1.62,
+    "queueLength": 4,
+    "timestamp": "2026-10-28T17:53:31.608Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "service_completed",
+    "personId": 1,
+    "serviceDurationMinutes": 1.62,
+    "queueLength": 4,
+    "timestamp": "2026-10-28T17:53:31.608Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "service_started",
+    "personId": 2,
+    "actualWaitMinutes": 1.56,
+    "queueLength": 3,
+    "timestamp": "2026-10-28T17:53:31.608Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "service_completed",
+    "personId": 2,
+    "serviceDurationMinutes": 1.57,
+    "queueLength": 3,
+    "timestamp": "2026-10-28T17:55:05.686Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "service_started",
+    "personId": 2,
+    "actualWaitMinutes": 3.13,
+    "queueLength": 3,
+    "timestamp": "2026-10-28T17:55:05.688Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "service_completed",
+    "personId": 2,
+    "serviceDurationMinutes": 1.57,
+    "queueLength": 3,
+    "timestamp": "2026-10-28T17:55:05.688Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "service_started",
+    "personId": 3,
+    "actualWaitMinutes": 3.06,
+    "queueLength": 2,
+    "timestamp": "2026-10-28T17:55:05.688Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "join",
+    "personId": 1,
+    "joinedAt": 1793210911233,
+    "queueLength": 1,
+    "timestamp": "2026-10-28T18:08:31.233Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "join",
+    "personId": 2,
+    "joinedAt": 1793210932017,
+    "queueLength": 2,
+    "timestamp": "2026-10-28T18:08:52.017Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "join",
+    "personId": 3,
+    "joinedAt": 1793210964420,
+    "queueLength": 3,
+    "timestamp": "2026-10-28T18:09:24.420Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "service_completed",
+    "personId": 1,
+    "serviceDurationMinutes": 0.98,
+    "queueLength": 3,
+    "timestamp": "2026-10-28T18:09:30.327Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "service_started",
+    "personId": 2,
+    "actualWaitMinutes": 0.64,
+    "queueLength": 2,
+    "timestamp": "2026-10-28T18:09:30.328Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "service_completed",
+    "personId": 2,
+    "serviceDurationMinutes": 0.89,
+    "queueLength": 2,
+    "timestamp": "2026-10-28T18:10:23.676Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "service_started",
+    "personId": 3,
+    "actualWaitMinutes": 0.99,
+    "queueLength": 1,
+    "timestamp": "2026-10-28T18:10:23.679Z",
+    "hour": 23,
+    "dayOfWeek": 3
+  },
+  {
+    "type": "join",
+    "personId": 1,
+    "joinedAt": 1793213494904,
+    "queueLength": 1,
+    "timestamp": "2026-10-28T18:51:34.904Z",
+    "hour": 0,
+    "dayOfWeek": 4
+  },
+  {
+    "type": "service_started",
+    "personId": 1,
+    "actualWaitMinutes": 0,
+    "queueLength": 1,
+    "timestamp": "2026-10-28T18:51:34.904Z",
+    "hour": 0,
+    "dayOfWeek": 4
+  },
+  {
+    "type": "join",
+    "personId": 2,
+    "joinedAt": 1793213498025,
+    "queueLength": 2,
+    "timestamp": "2026-10-28T18:51:38.025Z",
+    "hour": 0,
+    "dayOfWeek": 4
+  },
+  {
+    "type": "join",
+    "personId": 3,
+    "joinedAt": 1793213501301,
+    "queueLength": 3,
+    "timestamp": "2026-10-28T18:51:41.301Z",
+    "hour": 0,
+    "dayOfWeek": 4
+  },
+  {
+    "type": "join",
+    "personId": 4,
+    "joinedAt": 1793213957667,
+    "queueLength": 4,
+    "timestamp": "2026-10-28T18:59:17.667Z",
+    "hour": 0,
+    "dayOfWeek": 4
+  },
+  {
+    "type": "join",
+    "personId": 5,
+    "joinedAt": 1793213973667,
+    "queueLength": 5,
+    "timestamp": "2026-10-28T18:59:33.667Z",
+    "hour": 0,
+    "dayOfWeek": 4
+  },
+  {
+    "type": "join",
+    "personId": 6,
+    "joinedAt": 1793213987152,
+    "queueLength": 6,
+    "timestamp": "2026-10-28T18:59:47.152Z",
+    "hour": 0,
+    "dayOfWeek": 4
+  },
+  {
+    "type": "join",
+    "personId": 7,
+    "joinedAt": 1793213992519,
+    "queueLength": 7,
+    "timestamp": "2026-10-28T18:59:52.519Z",
+    "hour": 0,
+    "dayOfWeek": 4
+  }
+]

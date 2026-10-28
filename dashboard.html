@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q - Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+    <div class="dashboard">
+
+        <header>
+            <h1>Get in the Q</h1>
+            <p>Manage your queue easily.</p>
+        </header>
+
+<div class="queue-status">
+    Queue Status: <span id="queue-status">Loading...</span>
+</div>
+
+
+        <section class="queue-info">
+            <div>
+                <h2>Queue Dashboard</h2>
+                <p>People currently waiting</p>
+            </div>
+
+            <div class="count">
+                <span id="people-count">5</span>
+                <small>People</small>
+            </div>
+        </section>
+
+        <section class="actions">
+            <button class="skip">Skip</button>
+            <button class="add">Add</button>
+            <button class="remove">Remove</button>
+            <button class="next">Next</button>
+
+            <button id="pause-queue">Pause Queue</button>
+            <button id="resume-queue">Resume Queue</button>
+            <button id="close-queue">Close Queue</button>
+            <button id="reopen-queue">Reopen Queue</button>
+
+        </section>
+        
+
+<div class="queue-layout">
+
+    <!-- LEFT: QR Code -->
+    <section class="qr-section">
+        <h3>Queue QR Code</h3>
+        <p>Scan to join the queue</p>
+
+        <div class="qr-box" id="qr-box">
+            <img
+                src="https://placehold.co/180x180?text=QR+Code"
+                alt="Queue QR Code"
+                id="qr-image"
+            >
+        </div>
+
+        <button class="refresh-qr" id="refresh-qr">
+            ↻ Refresh QR
+        </button>
+    </section>
+
+    <!-- RIGHT: Waiting List -->
+    <section class="queue-section">
+        <h3>Waiting List</h3>
+
+        <div class="queue-list" id="queue-list">
+
+            <div class="person active">
+                <div class="person-info">
+                    <span class="position">01</span>
+                    <div>
+                        <h4>Rahul Sharma</h4>
+                        <p>Estimated wait: 0 min</p>
+                    </div>
+                </div>
+                <span class="status active-status">ACTIVE</span>
+            </div>
+
+            <div class="person">
+                <div class="person-info">
+                    <span class="position">02</span>
+                    <div>
+                        <h4>Priya Verma</h4>
+                        <p>Estimated wait: 10 min</p>
+                    </div>
+                </div>
+                <span class="status next-status">NEXT</span>
+            </div>
+
+            <div class="person">
+                <div class="person-info">
+                    <span class="position">03</span>
+                    <div>
+                        <h4>Aarav Gupta</h4>
+                        <p>Estimated wait: 20 min</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="person">
+                <div class="person-info">
+                    <span class="position">04</span>
+                    <div>
+                        <h4>Ananya Singh</h4>
+                        <p>Estimated wait: 30 min</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="person">
+                <div class="person-info">
+                    <span class="position">05</span>
+                    <div>
+                        <h4>Aditya Mehta</h4>
+                        <p>Estimated wait: 40 min</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</div>
+
+
+    </div>
+
+<!-- QR code library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+<!-- Your JavaScript -->
+<script src="dashboard.js"></script>
+</body>
+</html>
